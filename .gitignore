@@ -1,0 +1,24 @@
+# Build output
+target/
+node_modules/
+dist/
+
+# Local data / runtime
+*.db
+*.db-wal
+*.db-shm
+.env
+
+# OS
+.DS_Store
+
+# Release build staging (see .github/workflows/build.yml and scripts/install.sh)
+routex-*-linux-*/
+routex-*-windows-*/
+routex-*.tar.gz
+routex-*.tar.gz.sha256
+routex-*.zip
+routex-*.zip.sha256
+
+# Local MCP config (chứa token cá nhân)
+.mcp.json
